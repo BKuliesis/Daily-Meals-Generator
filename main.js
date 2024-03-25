@@ -11,4 +11,10 @@ function generateRandomMeal() {
         randomMeals.push(meals[meal][randomIndex]);
     }
     return randomMeals;
-};
+}
+
+function outputMeals(meals) {
+    console.log(`Breakfast: ${meals[0]}`);
+    console.log(`Lunch: ${meals[1]}`);
+    console.log(`Dinner: ${meals[2]}`);
+}
