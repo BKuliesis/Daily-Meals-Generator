@@ -1,7 +1,7 @@
 const meals = {
-    breakfast: [],
-    lunch: [],
-    dinner: [],
+    breakfast: ['Pancakes', 'French Toast', 'Croissant', 'Bagel and Cream Cheese', 'Yogurt Parfait'],
+    lunch: ['Burrito Bowl', 'Grilled Cheese Sandwich', 'Turkey Wrap', 'Falafel Pita', 'Sushi'],
+    dinner: ['Roast Chicken', 'Mushroom Risotto', 'Seafood Paella', 'Spaghetti Carbonara', 'Vegetable Stir Fry'],
 };
 
 function generateRandomMeal() {
