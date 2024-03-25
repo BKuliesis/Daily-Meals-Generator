@@ -18,3 +18,5 @@ function outputMeals(meals) {
     console.log(`Lunch: ${meals[1]}`);
     console.log(`Dinner: ${meals[2]}`);
 }
+
+outputMeals(generateRandomMeal());
